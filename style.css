@@ -259,3 +259,39 @@ header {
 #services .titlee a:hover {
   color: #c377e0;
 }
+
+/* Pricing */
+#pricing{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+#pricing h3{
+  font-size: 32px;
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+#pricing h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#pricing h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #c377e0;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
