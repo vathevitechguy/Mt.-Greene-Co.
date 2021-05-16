@@ -358,7 +358,7 @@ header {
  */
  #team{
   padding-top: 80px;
-  padding-bottom: 70px;
+  padding-bottom: 120px;
 }
 #team h3{
   font-size: 32px;
@@ -390,8 +390,6 @@ header {
   bottom: 0;
   left: calc(50% - 20px);
 }
-
-
 .member img{
   width: 140px;
   height: 140px;
@@ -429,4 +427,197 @@ header {
   transition: transform .5s;
   color: #fff !important;
   border: none;
+}
+
+
+/* Trusted By Section */
+ #trust{
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #fff !important;
+}
+#trust h3{
+  font-size: 32px;
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+  /* margin-bottom: 50px; */
+}
+#trust h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#trust h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #c377e0;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+
+/* Contact Section */
+#contact{
+  /* padding-top: 90px;
+  padding-bottom: 60px; */
+  background-image: url(https://image.freepik.com/free-photo/soccer-ball-baseball-rugby-basketball-wooden-table_23-2147924680.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#contact .contact-overlay{
+   background-color: rgba(0, 0, 0, 0.884);
+   height: inherit;
+   width: inherit;
+   padding-bottom: 90px;
+}
+#contact h3{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 60px;
+}
+#contact h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#contact h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #c377e0;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.contact .input-group {
+   margin-bottom: 25px;
+}
+.contact i {
+   padding: 13.5px;
+   padding-bottom: 14px;
+   background-color: #c377e0;
+   color: #fff;
+}
+.input-group-prepend{
+  margin-top: 12px;
+}
+
+input:focus{
+  border: 2px solid dodgerblue;
+}
+.contact .btn {
+   border-radius: 25px;
+   width: 300px;
+   padding: 10px;
+   font-size: 16px;
+   background-color: #742792;
+  /* background-image: linear-gradient(to right, #f00, #0d6efd); */
+   color: #fff;
+}
+.contact .btn:hover {
+   background-color: #fff !important;
+   background-image: linear-gradient(to right, #fff, #fff);
+   color: #000 !important;
+   border: 2px solid #000;
+}
+input::placeholder{
+  font-size: 14px;
+}
+textarea::placeholder{
+  font-size: 14px;
+}
+
+
+/* footer */
+footer{
+  /* background-image: url(http://layerdrops.com/apitonhtml/assets/images/resources/video-bg-1-1.jpg) ;
+  background-size: cover;
+  background-attachment: fixed; */
+  background-color: #111;
+  height: auto;
+  color: #fff;
+  border-top: 1px solid rgb(172, 171, 171);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.foot-content h4{
+  padding-top: 40px; 
+}
+.foot-content ul li{
+  list-style: none;
+  margin-left: -20px;
+  margin-top: 14px;
+}
+.foot-content ul li i{
+  margin-right: 6px;
+  color: #fff;
+  margin-top: -9px;
+  font-size: 17px;
+}
+.foot-content ul li p{
+  padding-left: 30px;
+}
+.foot-content ul li a{
+  text-decoration: none;
+  color: #fff !important;
+}
+.foot-content ul li a:hover{
+  color: #c377e0 !important;
+}
+.subscribe{
+  box-sizing: border-box;
+}
+.subscribe input{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.subscribe button{
+  float: right;
+  margin-top: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 120px;
+  margin-bottom: 20px
+}
+.subscribe button:hover{
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+}
+.copyright{
+  padding-top: 10px;
+  background-color: rgb(29, 27, 27);
+  height: 40px;
+  color: #fff;
+  text-align: center;
 }
