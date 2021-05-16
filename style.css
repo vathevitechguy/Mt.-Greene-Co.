@@ -261,9 +261,10 @@ header {
   padding: 25px;
   border-radius: 5px;
   margin-bottom: 30px;
+  transition: transform .5s;
 }
 .con-wrapper:hover{
-  box-shadow: 0 0 3px rgba(255, 255, 255, 0.842);
+  transform: scale(1.02);
 }
 #services .titlee a:hover {
   color: #c377e0;
@@ -276,7 +277,8 @@ header {
 }
 #pricing{
   padding-top: 80px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
+  background-color: #fff;
 }
 #pricing h3{
   font-size: 32px;
@@ -308,15 +310,19 @@ header {
   bottom: 0;
   left: calc(50% - 20px);
 }
-
-
 .ready-wrapper{
   background-color: #742792;
   padding: 40px;
+  padding-top: 60px;
   height: 300px;
-  margin-top: 290px;
+  margin-top: 300px;
   text-align: center;
   border-radius: 10px;
+  transition: transform .5s;
+}
+.ready-wrapper:hover{
+  cursor: pointer;
+  transform: scale(1.02);
 }
 .ready-wrapper h2{
   font-size: 32px;
@@ -327,7 +333,6 @@ header {
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
-  margin-top: 45px;
 }
 .store-redir{
   font-family: "Montserrat", sans-serif;
@@ -346,4 +351,82 @@ header {
 .store-redir:hover {
   background: #fff;
   color: #742792;
+}
+
+/* 
+  Team Section
+ */
+ #team{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+#team h3{
+  font-size: 32px;
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+#team h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#team h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #c377e0;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+
+.member img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: double 4px transparent;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#0d6efd);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.member{
+  text-align: center;
+  margin-top: 100px;
+}
+.member h2{
+  margin-top: 20px;
+  font-weight: 400px !important;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+.member h6{
+  color: rgb(36, 35, 35);
+  font-weight: lighter;
+}
+.member-wrapper{
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-radius: 130px;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
+  /* border-bottom: 6px solid #742792; */
+  transition: transform .5s;
+}
+.member-wrapper:hover{
+  transform: scale(1.06);
+  transition: transform .5s;
+  color: #fff !important;
+  border: none;
 }
