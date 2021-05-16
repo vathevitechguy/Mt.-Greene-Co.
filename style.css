@@ -158,7 +158,29 @@ header {
   color: #fff;
   margin-bottom: 0;
 } */
-
+/* Feature Services */
+/* #featured-services {
+    background: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#featured-services i {
+  color: #c377e0;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+}
+.title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+#featured-services p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0;
+} */
 
 /* About US */
 #about{
