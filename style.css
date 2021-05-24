@@ -627,3 +627,20 @@ footer{
   color: #fff;
   text-align: center;
 }
+
+
+
+
+
+/* Products */
+#products{
+  background-image: url(https://image.freepik.com/free-photo/young-man-runner-tying-shoelaces_1421-46.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.product-overlay{
+
+  padding-top: 180px !important;
+  padding-bottom: 130px;
+   background-color: rgba(0, 0, 0, 0.829);
+}
