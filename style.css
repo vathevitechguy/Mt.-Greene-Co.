@@ -644,3 +644,24 @@ footer{
   padding-bottom: 130px;
    background-color: rgba(0, 0, 0, 0.829);
 }
+
+
+.buy-redir{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #c377e0;
+  text-decoration: none;
+  margin-left: 210px !important;
+  margin-top: -150px;
+}
+.buy-redir:hover {
+  background: #fff;
+  color: #742792;
+}
