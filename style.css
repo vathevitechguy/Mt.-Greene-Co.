@@ -182,6 +182,10 @@ header {
 }
 #about img{
   padding-top: 10px;
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+  overflow: hidden;
 }
 
 /* Services */
